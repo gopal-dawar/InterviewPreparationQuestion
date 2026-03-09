@@ -26,5 +26,5 @@ public class Question4 {
 		} else {
 			System.out.println(n + " is not prime number");
 		}
-	}
+	}	
 }
