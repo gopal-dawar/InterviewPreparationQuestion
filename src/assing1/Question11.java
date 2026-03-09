@@ -3,18 +3,18 @@ package assing1;
 public class Question11 {
 	public static void main(String[] args) {
 
-		int[] arr = { 12, 12, 1, 2, 3, 4, 4, 5, 6, 7, 9 };
+		String str = "programming";
 
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = 0; i < str.length(); i++) {
 			boolean flag = false;
-			for (int j = i; j < arr.length; j++) {
-				if (i != j && arr[j] == arr[i]) {
+			for (int j = i; j < str.length(); j++) {
+				if (i != j && str.charAt(j) == str.charAt(i)) {
 					flag = true;
 					break;
 				}
 			}
 			if (!flag) {
-				System.out.println(arr[i]);
+				System.out.print(str.charAt(i));
 			}
 		}
 
