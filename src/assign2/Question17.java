@@ -23,5 +23,6 @@ public class Question17 {
 //		for (int i = 0; i < count; i++) {
 //			System.out.print(arr3[i] + " ");
 //		}
+		
 	}
 }
