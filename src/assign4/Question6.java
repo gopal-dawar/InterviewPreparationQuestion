@@ -1,13 +1,21 @@
 package assign4;
 
-public class Question6 {
-    public static void main(String[] args) {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-        String s1 = "programming";
-   
-        	
-        for()
-        
-        
-    }
+public class Question6 {
+	public static void main(String[] args) {
+
+		int[] arr = { 1, 1, 2, 3 };
+
+		List<Integer> l1 = new ArrayList<Integer>();
+
+		for (int num : arr) {
+			if (!l1.contains(num)) {
+				l1.add(num);
+			}
+		}
+		System.out.println(l1);
+	}
 }
