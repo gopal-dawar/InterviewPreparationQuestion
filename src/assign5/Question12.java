@@ -6,7 +6,7 @@ public class Question12 {
 
 		for (int i = 0; i < arr.length; i++) {
 			boolean b = true;
-			for (int j = i + 1; j < arr.length; j++) {
+			for (int j = 0; j < i; j++) {
 				if (arr[i] == arr[j]) {
 					b = false;
 					break;
